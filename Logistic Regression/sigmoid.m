@@ -1,4 +1,5 @@
+function g = sigmoid(z)
+%Compute sigmoid function of z
 
-function a = sigmoid(z)
-
-a = 1.0 ./ (1.0 + exp(-z));
+g = 1.0 ./ (1.0 + exp(-z));
+end
